@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('../fonts/proximanova-light.eot');
+  src: url('../fonts/proximanova-light.eot') format('embedded-opentype'), url('../fonts/proximanova-light.woff') format('woff'), url('../fonts/proximanova-light.ttf') format('truetype'), url('../fonts/proximanova-light.svg#ProximaNovaLight') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaLightItalic';
+  src: url('../fonts/proximanova-lightitalic.eot');
+  src: url('../fonts/proximanova-lightitalic.eot') format('embedded-opentype'), url('../fonts/proximanova-lightitalic.woff') format('woff'), url('../fonts/proximanova-lightitalic.ttf') format('truetype'), url('../fonts/proximanova-lightitalic.svg#ProximaNovaLightItalic') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/proximanova-regular.eot');
+  src: url('../fonts/proximanova-regular.eot') format('embedded-opentype'), url('../fonts/proximanova-regular.woff') format('woff'), url('../fonts/proximanova-regular.ttf') format('truetype'), url('../fonts/proximanova-regular.svg#ProximaNovaRegular') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/proximanova-bold.eot');
+  src: url('../fonts/proximanova-bold.eot') format('embedded-opentype'), url('../fonts/proximanova-bold.woff') format('woff'), url('../fonts/proximanova-bold.ttf') format('truetype'), url('../fonts/proximanova-bold.svg#ProximaNovaBold') format('svg');
+}
+body {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "ProximaNovaRegular", helvetica, sans-serif;
+}
+header {
+  height: 100px;
+  padding-top: 30px;
+}
+header img.mxf2012 {
+  height: 60px;
+}
+header img.mxf2013 {
+  height: 60px;
+  margin-left: 40px;
+}
+header img.mxf2014 {
+  height: 68px;
+  margin-left: 40px;
+}
+section.main-content {
+  height: 500px;
+}
+section.main-content p {
+  margin-top: 0;
+  font-size: 80px;
+  line-height: 90px;
+  font-family: "ProximaNovaLight", helvetica, sans-serif;
+}
+section.bottom p {
+  font-family: "ProximaNovaLightItalic", helvetica, sans-serif;
+}
+section.bottom p.source {
+  font-size: 12px;
+  font-family: "ProximaNovaLightBold", helvetica, sans-serif;
+}
+section.bottom .signup-form p {
+  font-size: 14px;
+}
+section.bottom .signup-form form input.email {
+  width: 80%;
+  height: 25px;
+}
